@@ -7,10 +7,6 @@ import {
   Route,
   Switch,
 } from "react-router-dom"
-// import {ActiveClasses} from './pages/ActiveClasses';
-// import AwaitingAssessment from './pages/AwaitingAssesment';
-// import Stream from './pages/Stream';
-// import Student from './pages/Student';
 import User from "./pages/Admin"
 import Hotel from "./pages/Hotel"
 
