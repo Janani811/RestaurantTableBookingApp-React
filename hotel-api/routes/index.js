@@ -1,5 +1,4 @@
 const auth = require('./auth');
-const webhook = require('./webhook');
 
 const profile = require('./profile');
 
@@ -12,7 +11,6 @@ module.exports = (app) => {
     res.send('Reastaurant Table Booking');
   });
   app.use('/auth', auth);
-  app.use('/webhook', webhook);
 
   app.use('/profile', profile);
 
